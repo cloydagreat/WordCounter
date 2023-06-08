@@ -1,0 +1,55 @@
+/* word counter*/
+
+*,*::after,
+*::before{
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color:rgb(148, 6, 6);
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    width:600px;
+    height:400px;
+    background-color:rgb(83, 151, 14);
+    border-radius:10px;
+}
+h1{
+    text-align:center;
+    margin-top:-10px;
+}
+
+#input{
+    margin-bottom:5px;
+    height:60%;
+    padding:5px;
+}
+
+.texts{
+    display:flex;
+    align-items:center;
+    padding:10px;
+    background-color:antiquewhite;
+    margin:3px 0;
+    height:40px;
+    border-radius:3px;
+    justify-content:space-between;
+}
+.texts p{
+    margin-right:100px;
+}
+#paragraph{
+ margin-right:150px;
+}
+#word{
+    margin-right:180px;
+}
